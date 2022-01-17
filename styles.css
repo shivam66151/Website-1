@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@500&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Nunito&family=Poppins:wght@500&family=Roboto:wght@100;400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ff0000;
+}
+body {
+    height: 100vh;
+    padding: 20px 15px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.980), rgba(0,0,0,0.580)),url(golden-retriever.jpg);
+    background-size: cover;
+}
+
+.container nav {
+    width: 100%;
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0 0 4em;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+
+nav h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 23px;
+    margin-right: 2em;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+nav ul li:hover,nav ul #list1 {
+    text-decoration: underline;
+}
+
+.container .main {
+    width: 100%;
+    height: 90%;
+    flex-direction: column;
+}
+
+.container .main,.main .follows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1 {
+    font-size: 6em;
+    font-family: 'Roboto' , sans-serif;
+    color: #fff;
+}
+
+.main p {
+    margin-top: -0.5em;
+    font-size: 4.5em;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+}
+
+.main p span {
+    font-weight: bold;
+}
+
+.main .follows {
+    margin-top: 1em;
+    width: 20%;
+    justify-content: space-around;
+    color: #fff;
+}
+
