@@ -1,1 +1,0 @@
-let home = document.getElementById('list1')
